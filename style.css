@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Fjalla+One&family=Martel+Sans:wght@600&family=Playfair+Display&family=Roboto+Condensed:wght@400;500&family=Roboto:ital,wght@1,100&family=Whisper&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family:  sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(view/img/bg.jpg);
+    height: 85vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+}
+.main .box{
+    height: 85vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.64;
+    position: absolute;
+    top: 0;
+}
+nav{
+    display: flex;
+    max-width: 65vw; 
+    margin: auto;
+     justify-content: space-between;
+    align-items: center;
+    height: 102px;
+    
+}
+nav img{
+    width: 134px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button{
+    position: relative;
+    z-index: 9;
+    padding: 6px 12px;
+    border-radius: 8px;
+}
+
+.box{
+    color: white;
+}
+.hero{
+ height: 84.2%;
+ color: white;
+ z-index: 7;
+ position: relative;
+ /* z index works only when position is set as "relative" */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ font-family: 'Martel Sans', sans-serif;
+ gap: 23px;
+ 
+ text-align: center;
+}
+.hero> :first-child{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400px;
+}
+.hero> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400px;
+}
+.sepration{
+    height: 7px;
+    background-color: gray;
+    opacity: 0.4;
+}
+#sign{
+    padding: 6px 18px ;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid red;
+    cursor: pointer;
+
+}
+
+#lang{
+    padding: 3px 8px;
+    font-weight: bold;
+    background: transparent;
+    color: white;
+    padding: 9px 28px;
+    border: 0.5px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#started{
+    padding: 6px 28px;
+font-weight: 400;
+background-color: red;
+color: white;
+font-size: 24px;
+border-radius: 8px;
+cursor: pointer;
+
+}
+#mail{
+    padding:7px 105px 8px 14px;
+    font-size: 17px;
+    border-radius: 7px;
+    /* background-color: rgba(23, 23, 23, 0.2); */
+    background: transparent;
+    color: white;
+    font-weight: 800;
+    /* border: 2px solid rgba(23, 23, 23, 0.75);  */
+}
+.herobtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin: 22px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 85vw;
+    color: white;
+    align-items: center;
+}
+.image{
+    position:relative;
+
+}
+.image img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+    background-blend-mode: multiply;
+    border-collapse: collapse;
+}
+.image video{
+    /* position: absolute; */
+    /* position: relative; */
+    
+    /* top: -293px; */
+    /* right: -63px; */
+    /* width: 360px; */
+    position: relative;
+    top: -305px;
+    right: -67px;
+    width: 375px;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+section.first > div :nth-child(2){
+    font-size: 24px;
+    font-weight: bold;
+}
+ /* section.third video{
+    object-fit: cover;
+    top: 0px;
+    right: -67px;
+    width: 375px;
+ } */
+
+#superman{
+    position: relative;
+    top: -345px;
+    right: -82px;
+    width: 329px;
+    height: 217px;
+    z-index: -1;
+}
+ 
+ #tv{
+    position: relative;
+     z-index:10 ;
+ }
+ .faq{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .faq h1{
+    color: white;
+    font-size: xxx-large;
+    margin: 43px 
+ }
+ .faqbox{
+    display: flex;
+    color: white;
+     background-color: rgba(118, 116, 116, 0.373); 
+    padding: 4px 12px;
+    width: 70vw;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 11px;
+    height: 71px;
+    font-size: 24px;
+    cursor: pointer;
+
+
+ }
+
+ .faqbox svg{
+    width: 25px;
+    height: 24px;
+    filter: invert();
+ }
+ .tet{
+    color: white;
+    font-size: 24px;
+ }
+  .secn{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    height: 290px;
+    justify-content:center;
+ } 
+ .container{
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    margin: 12px 2px;
+ }
+ .container span{
+    margin: 12px 3px;
+    text-decoration: underline;
+    color: white;
+ }
+ .last{
+    justify-content: center;
+ }
